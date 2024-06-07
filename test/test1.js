@@ -14,7 +14,7 @@ async function test_case() {
 
     try {
         //Send driver to website
-        await driver.get("https://devops-proj-testing.web.app/");
+        await driver.get("https://testing-replica-65bc2.web.app/");
 
         //Grab an element from the page
         await driver.findElement(By.id('generate')).click();
